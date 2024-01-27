@@ -1,0 +1,33 @@
+.card-btn, #example .second, #products .first {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+
+#products .card h1 {
+  background-color: aqua;
+}
+#products .card a:nth-child(1) {
+  background-color: burlywood;
+}
+#products .card a:nth-child(2) {
+  background-color: black;
+}
+#products .card-footer span {
+  background-color: cornflowerblue;
+}
+#products .add {
+  width: 200;
+  height: 100;
+  background-color: black;
+}
+#products .bring {
+  width: 300;
+  height: 400;
+  background-color: black;
+}
+#products .come {
+  width: 500;
+  height: 600;
+  background-color: black;
+}/*# sourceMappingURL=home.css.map */

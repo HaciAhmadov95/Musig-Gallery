@@ -1,0 +1,60 @@
+@import '../../partials/variables';
+@import '../../partials/extend.scss';
+
+
+
+
+@mixin something ($width, $height){
+  width: $width;
+  height: $height;
+  background-color: $main-back-color;
+}
+
+
+
+#products{
+  .card{
+    h1{
+      background-color: aqua;
+    }
+
+    a:nth-child(1){
+      background-color: burlywood;
+    }
+
+    a:nth-child(2){
+      background-color: $main-back-color;
+    }
+
+  }
+
+  .card-footer{
+    span{
+      background-color: cornflowerblue;
+    }
+  }
+
+  
+  .first{
+    @extend .card-btn
+  }
+
+
+  .add{
+    @include something(200,100)
+  }
+
+  .bring{
+    @include something(300,400 )
+  }
+
+  .come{
+    @include something(500,600 )
+  }
+}
+
+#example{
+  .second{
+    @extend .card-btn
+  }
+} 
